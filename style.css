@@ -1,4 +1,5 @@
 body {
+  height: 100%;
   display: flex;
   margin-top: 50px;
   justify-content: center;
@@ -183,9 +184,9 @@ button {
   top: 0px;
   left: 0px;
   z-index: 10;
+  position: fixed;
+  height: 100%;
   width: 100vw;
-  height: 100vh;
-  position: absolute;
   background-color: rgba(0,0,0,0.8);
 }
 #scheduleInput{

@@ -117,6 +117,7 @@ function load() {
     }
 
     calendar.appendChild(daySquare);    
+    calendar.appendChild(daySquare);    
   }
 }
 
@@ -198,5 +199,9 @@ function getDay2(day){ //날짜문자열 형식은 자유로운 편
 
 }
 
+function checkCategory(){
+  let cateText = document.querySelector("#categoryInput").value;
+  console.log(cateText);
+}
 initButtons();
 load();
